@@ -38,8 +38,8 @@ repository root
 ├─mturk_api                     # Boto3 functions (e.g., creating qualification tests)
 │
 ├─mturk_task
-│   ├─html                      # task webpage template
-│   └─xml                       # qualification test template
+│  ├─html                       # task webpage template
+│  └─xml                        # qualification test template
 │
 ├─README.md                     # README
 └─requirements.txt              # required python packages
