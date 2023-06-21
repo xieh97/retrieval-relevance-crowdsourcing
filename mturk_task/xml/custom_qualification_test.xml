@@ -1,0 +1,206 @@
+<QuestionForm xmlns="http://mechanicalturk.amazonaws.com/AWSMechanicalTurkDataSchemas/2017-11-06/QuestionForm.xsd">
+
+    <Overview>
+        <Title>Matching Audio Segments with Their Content Descriptions</Title>
+        <Text>In this test, you will be asked to answer three questions. Each question presents three audio segments, and one text sentence, which describes the audio content (i.e., sounds) in one of the three audio segments.</Text>
+    </Overview>
+
+    <Question>
+        <QuestionIdentifier>question_1</QuestionIdentifier>
+        <IsRequired>true</IsRequired>
+        <QuestionContent>
+            <FormattedContent><![CDATA[
+                <br/>
+                <strong>Q1: Which audio segment has the best match with the description of this sentence:</strong> <u>Animals squawk in a jungle as a large vehicle comes closer</u>?
+            ]]></FormattedContent>
+
+            <Text>Audio Segment 1:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/ocS2PK2yLkM=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+
+            <Text>Audio Segment 2:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/V8NreV5TotA=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+
+            <Text>Audio Segment 3:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/27w4mdd8678=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+                <StyleSuggestion>radiobutton</StyleSuggestion>
+                <Selections>
+                    <Selection>
+                        <SelectionIdentifier>ocS2PK2yLkM=</SelectionIdentifier>
+                        <Text>Audio Segment 1</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>V8NreV5TotA=</SelectionIdentifier>
+                        <Text>Audio Segment 2</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>27w4mdd8678=</SelectionIdentifier>
+                        <Text>Audio Segment 3</Text>
+                    </Selection>
+                </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+
+    <Question>
+        <QuestionIdentifier>question_2</QuestionIdentifier>
+        <IsRequired>true</IsRequired>
+        <QuestionContent>
+            <FormattedContent><![CDATA[
+                <br/>
+                <strong>Q2: Which audio segment has the best match with the description of this sentence:</strong> <u>An orchestra finishing a song and the crowd applauding</u>?
+            ]]></FormattedContent>
+
+            <Text>Audio Segment 1:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/BJMg4kV_hZ8=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+
+            <Text>Audio Segment 2:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/SjH2PPRiRBA=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+
+            <Text>Audio Segment 3:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/8N8yJCm0Nxs=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+                <StyleSuggestion>radiobutton</StyleSuggestion>
+                <Selections>
+                    <Selection>
+                        <SelectionIdentifier>BJMg4kV_hZ8=</SelectionIdentifier>
+                        <Text>Audio Segment 1</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>SjH2PPRiRBA=</SelectionIdentifier>
+                        <Text>Audio Segment 2</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>8N8yJCm0Nxs=</SelectionIdentifier>
+                        <Text>Audio Segment 3</Text>
+                    </Selection>
+                </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+
+    <Question>
+        <QuestionIdentifier>question_3</QuestionIdentifier>
+        <IsRequired>true</IsRequired>
+        <QuestionContent>
+            <FormattedContent><![CDATA[
+                <br/>
+                <strong>Q3: Which audio segment has the best match with the description of this sentence:</strong> <u>A man and woman talk as an engine hums, then stops, and then starts back</u>?
+            ]]></FormattedContent>
+
+            <Text>Audio Segment 1:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/MteX7aufxKM=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+
+            <Text>Audio Segment 2:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/YVsW50Bc34M=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+
+            <Text>Audio Segment 3:</Text>
+            <EmbeddedBinary>
+                <EmbeddedMimeType>
+                    <Type>audio</Type>
+                    <SubType>wav</SubType>
+                </EmbeddedMimeType>
+                <DataURL>https://mturk.pages.dev/assets/test/YghALg9aenk=.wav</DataURL>
+                <AltText>Your browser does not support the audio player.</AltText>
+                <Width>118</Width>
+                <Height>60</Height>
+            </EmbeddedBinary>
+        </QuestionContent>
+        <AnswerSpecification>
+            <SelectionAnswer>
+                <StyleSuggestion>radiobutton</StyleSuggestion>
+                <Selections>
+                    <Selection>
+                        <SelectionIdentifier>MteX7aufxKM=</SelectionIdentifier>
+                        <Text>Audio Segment 1</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>YVsW50Bc34M=</SelectionIdentifier>
+                        <Text>Audio Segment 2</Text>
+                    </Selection>
+                    <Selection>
+                        <SelectionIdentifier>YghALg9aenk=</SelectionIdentifier>
+                        <Text>Audio Segment 3</Text>
+                    </Selection>
+                </Selections>
+            </SelectionAnswer>
+        </AnswerSpecification>
+    </Question>
+
+</QuestionForm>
