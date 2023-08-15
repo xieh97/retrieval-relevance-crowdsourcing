@@ -1,4 +1,4 @@
-# Crowdsourcing and Evaluating Text-Based Audio Retrieval Relevances
+# TAU Audio-Text Graded Relevances 2023 Dataset
 
 This repository provides data and instructions for crowdsourcing text-based audio retrieval relevances on Amazon Mechanical Turk (MTurk).
 More details about the entire crowdsourcing task settings and the usage of the crowdsourced audio-text relevances can be found in our paper (available on [arXiv](https://arxiv.org/abs/2306.09820)):
