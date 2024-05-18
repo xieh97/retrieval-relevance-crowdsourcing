@@ -4,11 +4,12 @@ This repository provides data and instructions for crowdsourcing text-based audi
 More details about the entire crowdsourcing task settings and the usage of the crowdsourced audio-text relevances can be found in our paper (available on [arXiv](https://arxiv.org/abs/2306.09820)):
 
 ```
-@unpublished{Xie2023Crowdsourcing,
+@InProceedings{Xie2023Crowdsourcing,
     author = {Xie, Huang and Khorrami, Khazar and Räsänen, Okko and Virtanen, Tuomas},
     title = {{Crowdsourcing and Evaluating Text-Based Audio Retrieval Relevances}},
+    booktitle = {Proc. Detect. Classif. Acoust. Scenes Events Work. (DCASE)},
     year = {2023},
-    note = {\href{https://arxiv.org/abs/2306.09820}{arXiv preprint arXiv:2306.09820}},
+    pages = {226-230}
 }
 ```
 
